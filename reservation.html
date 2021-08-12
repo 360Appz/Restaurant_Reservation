@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name = "description" content=" Restaurant Reservation - DigiX"/>
+    <meta name = "keyword" content="Restaurant"/>
+    <meta name = "author" content=" Joel Yeow"/>
+    <title> Home Page </title>
+    <link href="https://bootswatch.com/5/lux/bootstrap.min.css" rel="stylesheet"/>
+    <link href="styles/styles.css" rel="stylesheet"/>
+</head>
+
+<nav class="index_menu">
+  <img src="styles/Images/logo.jpg" ></img>
+   <ul>
+     <li ><a href = "index.html">Home</a></li>
+     <li> <a  href = "reservation.html">Reservation</a></li>
+   </ul>
+ </nav>
+
+ <div class="Background">
+ 
+    <section class="reservation">
+        <div class="reserve_container">
+        <h1>Restaurant Reservation</h1>
+      
+        <form id="RegisterForm" method="POST"  action="Process.php" novalidate="novalidate" >
+                <fieldset>
+                <p>
+                <label for="refnumber">Restaurant ID</label> 
+                <input type="text" name= "refnumber" id="refnumber" /> &nbsp;
+                </p>
+      
+                <p>
+                <label for="name">Name</label> 
+                <input type="text" name= "name" id="name"/>
+                </p>
+                
+                <p>
+                <label for="pax"> Pax </label> 
+                <input type="text" name= "pax" id="pax"/>
+                </p>  
+      
+      
+                <p><label for="phone">Phone Number</label> 
+                 <input type="text" name="phone" id="phone">              
+                </p>
+                                    
+              </fieldset>
+      
+            <input type="submit" class="register_button" value="Book Now"/>
+       
+        
+        </form>
+      
+        </div>
+      
+            
+            
+      </section>
+
+
+
+
+</div>
+<footer class="footerCenter">
+    <h3 class = "footertext">Created by Joel Yeow &nbsp; &#169; Copyright 2021 </h3>
+  </footer>
+</html>

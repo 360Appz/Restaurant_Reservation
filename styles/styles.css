@@ -1,0 +1,200 @@
+/*Reference Image
+index-Background
+https://www.google.com/search?q=food+restaurant&hl=EN&tbm=isch&source=hp&biw=1097&bih=554&ei=7c4UYa-yMceK-QaChrXYAQ&oq=food+resta&gs_lcp=CgNpbWcQARgCMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoICAAQgAQQsQM6CAgAELEDEIMBOgsIABCABBCxAxCDAToECAAQA1C4EliNKGDgNWgBcAB4AIABQIgByQSSAQIxMJgBAKABAaoBC2d3cy13aXotaW1nsAEA&sclient=img#imgrc=-sPj5Iavj9cRXM
+
+*/
+
+
+.index_menu {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+ 
+ }
+ img{
+    max-width:100%; 
+    height:100%; 
+    padding-left: 110px;
+    padding-top: 1px;
+
+ }
+
+.index_menu ul {
+    float: right;
+    padding-right: 20px;
+   
+}
+
+.index_menu ul li {
+    display: inline-block;
+    line-height: 5px;
+    margin: 0px 5px;
+    padding: 35px 20px 20px 0px;
+}
+.index_menu ul li a {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.Background
+{
+    background-image: url("Images/Food.jpg");
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+
+/*Index Page Main Text */
+#container {
+
+    background-color: white;
+    text-align: center;
+    opacity: 0.8;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0px 90px 0px 90px;
+}
+#WrapperText1 {
+    padding-left: 0px;
+    padding-top: 70px;
+
+}
+
+/*Restaurant Option 1 */
+#Restaurant1
+{
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+   background-color: black;
+   opacity: 0.85;
+}
+#RestaurantImage
+{
+   /*Image: http://samuiholiday.com/thai-traditions-krua-samui/*/
+   padding-left: 0px;
+   padding-top: 10px;
+  
+}
+#R1
+{
+    max-width: 30%;
+    max-height: 30%;
+}
+#id1
+{
+   
+    color: white;
+    float: right;
+    padding-right: 350px;
+    padding-top: 20px;
+    
+}
+#b1
+{
+ 
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    padding:10px 35px 10px 35px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/*Restaurant Option 2 */
+#Restaurant2
+{
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+   background-color: black;
+   opacity: 0.85;
+}
+#RestaurantImage2
+{
+    /*Image: https://stories.forbestravelguide.com/the-five-star-shine-returns-to-l-a-restaurant-scene*/
+    padding-left: 0px;
+    padding-top: 10px;
+}
+#R2
+{
+    max-width: 30%;
+    max-height: 30%;
+}
+#id2
+{
+   
+    color: white;
+    float: right;
+    padding-right: 550px;
+    padding-top: 20px;
+    
+}
+#b2
+{
+ 
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    padding:10px 35px 10px 35px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Reservation Page*/
+h1
+{
+    color: white;
+}
+.reservation
+{
+    padding-top: 20px;
+}
+.reserve_container {
+    background-color:black;
+    opacity: 0.8;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    color:white;
+}
+.register_button
+{
+    margin-top: 10px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+   
+    background-color: orange;
+}
+
+
+
+
+
+
+
+/* Footer*/
+.footer {
+    height: 30px;
+   
+}
+.footerCenter {
+    text-align: center;
+}
+.footertext {
+    font-size: 20px;
+    padding: 2px 40px;
+    font-weight: bold;
+    line-height: 80px;
+    background-color: black;
+    color: white;
+}
