@@ -104,6 +104,7 @@ https://www.google.com/search?q=food+restaurant&hl=EN&tbm=isch&source=hp&biw=109
     cursor: pointer;
 }
 
+
 /*Restaurant Option 2 */
 #Restaurant2
 {
@@ -146,6 +147,7 @@ https://www.google.com/search?q=food+restaurant&hl=EN&tbm=isch&source=hp&biw=109
     cursor: pointer;
 }
 
+
 /* Reservation Page*/
 h1
 {
@@ -157,7 +159,7 @@ h1
 }
 .reserve_container {
     background-color:black;
-    opacity: 0.8;
+    opacity: 0.9;
     padding-top: 15px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -175,6 +177,51 @@ h1
    
     background-color: orange;
 }
+
+/*Confirmation Page*/
+.confirm_container
+{
+    padding-top: 20px;
+    background-color:black;
+    opacity: 0.9;
+}
+h3
+{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+table
+{
+    padding-top: 30px;
+    border-collapse: collapse;
+width: 100%;
+color: #588c7e;
+font-size: 25px;
+text-align: left;
+}
+th {
+background-color: #588c7e;
+color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2}
+
+.message
+{
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color:orange;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    
+}
+h4
+{
+    text-align: center;
+    color: black;
+}
+
 
 
 

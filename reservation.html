@@ -1,15 +1,15 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name = "description" content=" Restaurant Reservation - DigiX"/>
     <meta name = "keyword" content="Restaurant"/>
     <meta name = "author" content=" Joel Yeow"/>
-    <title> Home Page </title>
+    <title> Reservation </title>
     <link href="https://bootswatch.com/5/lux/bootstrap.min.css" rel="stylesheet"/>
     <link href="styles/styles.css" rel="stylesheet"/>
+    <script src="scripts/PassButtonID.js"></script>
 </head>
 
 <nav class="index_menu">
@@ -26,39 +26,33 @@
         <div class="reserve_container">
         <h1>Restaurant Reservation</h1>
       
-        <form id="RegisterForm" method="POST"  action="Process.php" novalidate="novalidate" >
+        <form id="reservationID" method="POST"  action="Backend/database.php" >
                 <fieldset>
                 <p>
-                <label for="refnumber">Restaurant ID</label> 
-                <input type="text" name= "refnumber" id="refnumber" /> &nbsp;
+                <label for="reservedate">Reservation Date </label> 
+                <input type="datetime-local" name= "reservedate" id="reservedate" required /> &nbsp;
                 </p>
       
                 <p>
                 <label for="name">Name</label> 
-                <input type="text" name= "name" id="name"/>
+                <input type="text" name= "name" id="name" required/>
                 </p>
                 
                 <p>
                 <label for="pax"> Pax </label> 
-                <input type="text" name= "pax" id="pax"/>
+                <input type="text" name= "pax" id="pax" required/>
                 </p>  
       
       
                 <p><label for="phone">Phone Number</label> 
-                 <input type="text" name="phone" id="phone">              
+                 <input type="text" name="phone" id="phone" required>              
                 </p>
                                     
               </fieldset>
-      
             <input type="submit" class="register_button" value="Book Now"/>
-       
-        
         </form>
-      
         </div>
-      
-            
-            
+          
       </section>
 
 
