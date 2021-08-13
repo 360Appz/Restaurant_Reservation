@@ -18,7 +18,7 @@ Link: https://joel-cos-1001.000webhostapp.com/assign3/index.php
 * MySql (As data is structured in nature, MySQL RDMS is enough)
 
 * ### Reason for technology stack
-On most front-end frameworks like angular,react native, or vue.js. HTML & CSS is commonly used for styling and presentation. In this case, PHP is used as the backend as it works well with MySql database system. Unless, other database such as MongoDb is required for unstructured data, the javascript will be a much better option as JSON works well javascript
+On most front-end frameworks like angular,react native, or vue.js. HTML & CSS is commonly used for styling and presentation. In this case, PHP is used as the backend as it works well with MySql database system. Unless, other database such as MongoDb is required, for unstructured data, then javascript will be a much better option as JSON works well javascript
 
 
 ## Bugs
