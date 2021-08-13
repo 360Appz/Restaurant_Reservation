@@ -46,6 +46,6 @@ Version control allows developers to manage changes to files over a period of ti
  * Mercurial
  * Monotone
 
-3. How would this version control software help developers? <br>
+3. How would this version control software help developers? <br><br>
 Version controls helps developers by expedite time to market for software as every team member is on the same page in terms of the software version the team is working on. As stated in question 1, version control also helps developers track and manage versions over time and collaborate effectively across the team
 
