@@ -34,7 +34,7 @@ On most front-end frameworks like angular,react native, or vue.js. HTML & CSS is
 ------------------------------------------------
 <br>
 
-# Section2
+# Section 2
 
 1. What is version control and why is it important?<br><br>
 Version control allows developers to manage changes to files over a period of time and keep these changes in a database/repository. Version control is used synonymously with source control. The use of version control is important to keep track of changes, allow rollbacks, and allows team members to work off the latest versions. 
